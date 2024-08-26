@@ -1,0 +1,58 @@
+body{
+    background-color: #124270;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    margin-top: 0;
+    display: flex;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.icons{
+    margin-left: auto;
+    padding-right: 15px;
+    
+}
+.navbar a{
+    float: left; 
+    display: block;
+    padding: 8px 14px 5px;
+}
+.section{
+    padding: 5px;
+}
+
+.togle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.app-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 50px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.app-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.app-icon img{
+    width: 75px;
+    height: 75px;
+}
+
+.app-icon p{
+    color: white;
+}
